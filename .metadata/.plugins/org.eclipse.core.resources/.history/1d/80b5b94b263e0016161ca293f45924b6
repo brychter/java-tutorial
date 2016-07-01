@@ -1,0 +1,9 @@
+package tutorial1;
+
+public class Demo {
+	Demo() {
+		System.out.println("This is a default constructor");
+	}
+	Demo dem = new Demo ();
+	
+}

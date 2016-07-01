@@ -1,0 +1,17 @@
+package tutorial1;
+
+public class Demo {
+	String prop;
+	
+	Demo(String prop) {
+		System.out.println("This is a default constructor");
+	}
+	
+	public void method1(){
+		
+	}
+}
+
+public class Demo2 {
+	
+}

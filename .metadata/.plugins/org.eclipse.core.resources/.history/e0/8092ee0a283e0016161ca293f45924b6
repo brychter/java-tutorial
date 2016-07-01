@@ -1,0 +1,27 @@
+package tutorial1;
+import java.lang.*;
+class WelcomeMessage
+{
+  void printMessage()
+  {
+      System.out.println("Hello World");
+  }
+}
+class Myclass
+{
+   public static void main(String  []args)
+   {
+      WelcomeMessage obj=new  WelcomeMessage ();
+      obj.printMessage();
+   }
+}
+public class Demo {
+	String prop;
+	
+	Demo(String prop) {
+		System.out.println("This is a default constructor");
+	}
+	public void method1(){
+		
+	}
+}

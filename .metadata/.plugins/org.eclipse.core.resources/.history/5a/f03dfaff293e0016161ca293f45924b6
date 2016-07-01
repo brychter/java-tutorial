@@ -1,0 +1,45 @@
+//folder to store the class
+package tutorial1;
+
+import java.util.Scanner;
+
+public class Application {
+
+	class Demo {
+		public Demo() {
+			System.out.println("This is a default constructor");
+		}
+	}
+
+	// El método main tiene un array de string como argumento
+	public static void main(String[] args) {
+		/*
+		 * int num = 92; System.out.println(num);
+		 * 
+		 * // class var instance of object String text = "Hello";
+		 * System.out.println(text);
+		 * 
+		 * int value = 0;
+		 * 
+		 * while (value < 10) { System.out.println(value); value += 1; }
+		 * 
+		 * for (int i=0; i <12; i++){ System.out.println(i); }
+		 * 
+		 * if (4 == 4){ System.out.println("true"); }
+		 */
+
+		Scanner input = new Scanner(System.in);
+
+		/*
+		 * String line = input.nextLine(); int val = input.nextInt();
+		 * System.out.println(line); System.out.println(val);
+		 * 
+		 */
+
+		int[] values;
+		int[] numbers = { 5, 6, 7 };
+		values = new int[3];
+		//System.out.println(values[0]);
+	}
+
+}

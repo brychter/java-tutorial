@@ -1,0 +1,16 @@
+package tutorial1;
+
+public class Application {
+
+	public static void main(String[] args) {
+		int num = 92;
+		System.out.println(num); 
+		
+		//class var      instance of object
+		String text = "Hello";
+		System.out.println(text);
+		
+		boolean loop = 4 < 5;
+	}
+
+}
